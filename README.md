@@ -59,7 +59,7 @@ The page contains several sections including:
 ## 1. Clone the Project
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/shinewaitun/iron-code-assessment.git
 ```
 ## 2. Install Dependencies
 
