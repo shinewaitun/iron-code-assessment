@@ -1,0 +1,49 @@
+{
+  "Hero": {
+    "Hero_Text_1": "Building on the success of IronPdf for .NET",
+    "Hero_Text_2": "Beta Software Program",
+    "Hero_Product": "IronPDF for C++",
+    "Coming_Soon": "Coming Soon",
+    "Hero_Text_3": "Be one of the first",
+    "Hero_Text_4": "Sign up NOW to get early access",
+    "Hero_Text_5": "IronPDF Beta Program also coming soon for",
+    "Techs": "Python | Node.Js | Java",
+    "Sign_Up_Now": "Sign up now >"
+  },
+
+  "Features": {
+    "Title": "IronPDF for C++",
+    "Feature_1": "Generate PDFs from HTML in C++",
+    "Feature_2": "Combine, split, and modify PDFs quickly in C++",
+    "Feature_3": "Extract text and images from PDFs using C++"
+  },
+
+  "Info_Section": {
+    "Info_Text_1": "The new <span class='text-highlight'>IronPDF library for C++</span> will enhance the C++ developer’s tool set with robust PDF generation and conversion capabilities.",
+    "Info_Text_2": "Developers will be able to generate new PDFs from HTML content, combine, split, extract, and modify existing PDFs.",
+    "Info_Text_3": "<span class='text-highlight'>IronPDF for C++</span> will help developers build fast and reliable applications with advanced PDF processing capabilities."
+  },
+
+  "Why_Cpp": {
+    "Title": "Why make a C++ PDF Library",
+    "Description_1": "C++ is one of the most popular and powerful programming languages used in performance-critical systems.",
+    "Description_2": "IronPDF for C++ will help developers build high-performance applications that perform advanced PDF processing."
+  },
+
+  "Early_Access": {
+    "Title": "Early access to C++ PDF library",
+    "Description": "Joining the early access program allows you to collaborate closely with our engineering team and help shape the development of the C++ PDF library.",
+    "Released": "# Released",
+    "Coming_Soon": "# Coming Soon",
+    "Java": "for Java",
+    "Python": "for Python",
+    "Node": "for NodeJs"
+  },
+
+  "Signup": {
+    "Title": "Sign up to our Beta Program",
+    "Highlight": "Beta Program",
+    "Placeholder": "Enter email address",
+    "Button": "Sign up now >"
+  }
+}

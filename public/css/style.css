@@ -1,0 +1,258 @@
+@font-face {
+  font-family: "Gotham";
+  src:
+    url("/public/fonts/gotham-book-webfont.woff2") format("woff2"),
+    url("/public/fonts/gotham-book-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src:
+    url("/public/fonts/gotham-bold-webfont.woff2") format("woff2"),
+    url("/public/fonts/gotham-bold-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  background: #2c0f29 !important;
+  font-family: "Gotham", Arial, Helvetica, sans-serif !important;
+}
+
+/* Container alignment */
+
+.container {
+  max-width: 1140px;
+}
+
+/* Navbar */
+
+.navbar {
+  padding: 20px 0;
+}
+
+.nav-item .nav-link {
+  font-size: 13px;
+  padding-top: 0.7rem;
+  letter-spacing: 0.4px;
+  cursor: pointer;
+}
+
+/* Hero */
+
+.hero-wrapper {
+  overflow: hidden;
+}
+
+.hero-section {
+  position: relative;
+  min-height: 650px;
+}
+
+.beta-section {
+  padding-top: 5rem;
+}
+
+/* Hero image */
+
+.hero-image {
+  position: absolute;
+  right: -5%;
+  top: -30px;
+  width: 48%;
+  max-height: 700px;
+  pointer-events: none;
+}
+
+/* Signup */
+
+.signup-section {
+  padding: 60px 0 70px;
+}
+
+.signup-form {
+  display: flex;
+  align-items: center;
+  border: 3px solid #c6aac6;
+  border-radius: 50px;
+  max-width: 500px;
+  width: 100%;
+  background: #e9e9e9;
+  overflow: hidden;
+}
+
+.signup-form input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 12px 18px;
+}
+
+.signup-form button {
+  background: #e01a59;
+  border: none;
+  border-radius: 50px;
+  padding: 12px 26px;
+  color: white;
+  white-space: nowrap;
+}
+
+/* Gradient section */
+
+.hero-gradient-bg {
+  background: linear-gradient(90deg, #8e608e 0%, #402640 71%, #371a34 100%);
+}
+
+/* Badge */
+
+.coming-soon-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(65%, -30%);
+}
+
+/* Info Section */
+
+.info-section {
+  background: #260d24;
+  padding: 70px 0;
+}
+
+.info-text {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 14px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.info-text strong {
+  color: #fff;
+}
+
+/* FAQ Section */
+
+.faq-section {
+  background: #402640;
+  padding: 80px 0;
+}
+
+/* Early Access */
+
+.early-access-section {
+  padding: 80px 0;
+}
+
+/* Highlight text */
+
+.text-highlight {
+  color: #fff;
+}
+
+/* Pills */
+
+.release-pill {
+  background: #1f081d;
+  border: 1px solid #331433;
+  border-radius: 50px;
+  padding: 10px 20px;
+  width: fit-content;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.release-pill:hover {
+  transform: translateY(-2px);
+}
+
+.release-badge {
+  background: #331433;
+  color: #c6aac6;
+  font-size: 12px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  min-width: 7rem;
+  text-align: center;
+}
+
+.release-badge:hover {
+  background: #c6aac6;
+  color: #000;
+}
+
+.logo-text {
+  color: #c6aac6;
+}
+
+/* Bottom signup */
+
+.signup-beta-section {
+  background: #260d24;
+  padding: 70px 0;
+}
+
+/* 4K */
+@media (min-width: 2560px) {
+  .hero-image {
+    position: absolute;
+    right: -10%;
+    top: -30px;
+  }
+}
+
+/* Tablet */
+
+@media (max-width: 992px) {
+  .hero-image {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    display: none;
+    transform: none;
+    margin-top: 40px;
+  }
+
+  .beta-section {
+    padding-top: 3rem;
+    text-align: center;
+  }
+
+  .signup-form {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .signup-section {
+    text-align: center;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .hero-section {
+    min-height: auto;
+  }
+
+  .signup-form {
+    flex-direction: column;
+    border-radius: 20px;
+  }
+
+  .signup-form button {
+    width: 100%;
+    border-radius: 20px;
+  }
+}
